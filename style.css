@@ -5,7 +5,11 @@ body{
 }
 
 nav{
-    margin: 2px;
+    display:flex;
+    background-color: #005a96;
+    color: #d6e8ff;
+    border-radius: 15px;
+    padding: 15px;
 }
 
 .headings{
@@ -13,12 +17,19 @@ nav{
     margin-left: 15pt;    
 }
 
+div{
+    padding: 10px;
+}
+
 h1{
     font-family: Georgia, serif;
     background-color:#005a96;
-    color: goldenrod;
+    color: beige;
     padding: 1%;
     margin-top:0pt;
+    position: relative;
+    border-radius: 15px;
+    text-align: center;
 }
 
 h3{
@@ -26,34 +37,37 @@ h3{
 }
 
 img{
+    margin-top: 5%;
     float: left;
+    border-radius: 25px;
+    margin-left: 5%;
+    box-shadow: 10px 15px 5px grey;
 }
 
 p{
-    font-family: Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-size: 12pt;
-    margin-top: 25pt;
-    margin-bottom: 25pt;
+   /* margin-bottom: 25pt;
     margin-left: 45pt;
-    margin-right: 120pt;
+    margin-right: 120pt; */
     background-color:beige;
     color:mediumblue;
     padding: 2%;
     border-radius: 25px;
+    display:flex;
+    line-height: 150%;
 }
 
 a:link {
-    color:blue;
-    text-decoration:underline;
-}
-a:visited {
-    color:purple;
-    text-decoration:underline;
+    color:beige;
+    
 }
 a:hover {
     display:block;
     background-color:lightgray;
     text-decoration:underline;
+    padding: 5px;
+
 }
 a:active {
     color:red;
