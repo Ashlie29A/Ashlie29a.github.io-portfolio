@@ -16,6 +16,10 @@ nav{
     margin-left: 15pt;    
 }
 
+div{
+    padding: 10px;
+}
+
 h1{
     font-family: Georgia, serif;
     background-color:#005a96;
