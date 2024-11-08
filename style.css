@@ -6,10 +6,48 @@ body{
 
 nav{
     display:flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #005a96;
-    color: #d6e8ff;
     border-radius: 15px;
-    padding: 15px;
+    box-sizing: border-box;
+}
+
+.nav-items{
+    display: flex;
+}
+
+.nav-items a:hover {
+        display:block;
+        color:azure;
+        background-color:steelblue;
+        text-decoration:underline;  
+        padding: 5px;
+} 
+
+.linkedin-icon img {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;  
+    box-shadow: none;
+    transition: none;
+    transform: none;
+    background-color: transparent;
+}
+
+.email-icon img {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px; 
+    box-shadow: none; 
+    transition: none;
+    transform: none; 
+    background-color: transparent; 
+}
+
+.icons {
+    display: flex;
+    margin-left: auto;
 }
 
 .headings{
@@ -40,11 +78,21 @@ img{
     margin-top: 5%;
     float: left;
     border-radius: 25px;
-    margin-left: 5%;
+    margin-left: 3%;
     box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
     max-width: 100%;
     margin-bottom: 20px;
     margin-right: 20px;
+}
+
+.hello{
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    padding: 0px;
+    font-size: 50pt;
+    margin-top: 110px;
+    color:midnightblue;
 }
 
 p{
@@ -60,8 +108,25 @@ p{
     display:flex;
     line-height: 150%;
 }
-.text-block {
-    margin-top: 150px;
+/*.text-block {
+    margin-top:0px;
+}*/
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #005a96;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #004a80;
+    color: #ffffff;
 }
 
 .card-container {
@@ -116,7 +181,8 @@ a:link {
 a:visited{
     color: beige;
 }
-a:hover {
+
+.card-container a:hover {
     display:block;
     color:azure;
     background-color:steelblue;
