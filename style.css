@@ -50,10 +50,6 @@ nav{
     margin-left: auto;
 }
 
-.headings{
-    font-family:'Franklin Gothic Medium', sans-serif;
-    margin-left: 15pt;    
-}
 
 div{
     padding: 10px;
@@ -171,7 +167,6 @@ p{
     border-radius: 25px;
     display:flex;
     */
-    line-height: 150%;
 }
 
 a:link {
