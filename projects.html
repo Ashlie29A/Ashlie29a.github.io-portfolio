@@ -73,6 +73,14 @@
         </div>
 </body>
 
+<script>
+        document.querySelectorAll('img').forEach(function(image) {
+            image.addEventListener('click', function() {
+                this.classList.toggle('enlarged'); 
+            });
+        });
+</script>
+
 </html>
 <footer>
         <p>&copy; 2024 Designed & Coded by Ashlie Arora. All Rights Reserved.</p>
