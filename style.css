@@ -21,8 +21,7 @@ nav{
         display:block;
         color:azure;
         background-color:steelblue;
-        text-decoration:underline;  
-        padding: 5px;
+        text-decoration:underline;      
 } 
 
 .linkedin-icon img {
@@ -188,4 +187,12 @@ a:visited{
 a:active {
     color:red;
     text-decoration:underline;
+}
+
+footer {
+    background-color: #005a96; 
+    text-align: center; 
+    padding: 20px;
+    margin-top: 30px; 
+    border-radius: 15px 15px 0 0; 
 }

@@ -5,10 +5,47 @@ body{
 
 nav{
     display:flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #005a96;
-    color: #d6e8ff;
     border-radius: 15px;
-    padding: 15px;
+    box-sizing: border-box;
+}
+
+.nav-items{
+    display: flex;
+}
+
+.nav-items a:hover {
+        display:block;
+        color:azure;
+        background-color:steelblue;
+        text-decoration:underline;      
+} 
+
+.linkedin-icon img {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;  
+    box-shadow: none;
+    transition: none;
+    transform: none;
+    background-color: transparent;
+}
+
+.email-icon img {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px; 
+    box-shadow: none; 
+    transition: none;
+    transform: none; 
+    background-color: transparent; 
+}
+
+.icons {
+    display: flex;
+    margin-left: auto;
 }
 
 .heading{
@@ -69,19 +106,19 @@ h3{
 
 p a:link,
 p a:visited {
-    color: inherit; /* Match the surrounding text color */
-    text-decoration: underline; /* Optional underline */
-    background-color: transparent; /* No background */
+    color: inherit; 
+    text-decoration: underline; 
+    background-color: transparent; 
 }
 
 p a:hover {
-    color: blue; /* Optional hover color */
-    text-decoration: underline; /* Keep underline on hover */
-    background-color: transparent; /* No background on hover */
+    color: blue; 
+    text-decoration: underline;
+    background-color: transparent; 
 }
 
 p a:active {
-    color: red; /* Optional active color */
+    color: red; 
 }
 
 a:link {
@@ -91,15 +128,16 @@ a:link {
 a:visited{
     color: beige;
 }
-nav a:hover {
-    display:block;
-    color:azure;
-    background-color:steelblue;
-    text-decoration:underline;
-    padding: 5px;
 
-}
 a:active {
     color:red;
     text-decoration:underline;
+}
+
+footer {
+    background-color: #005a96; 
+    text-align: center; 
+    padding: 20px;
+    margin-top: 30px; 
+    border-radius: 15px 15px 0 0; 
 }

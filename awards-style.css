@@ -5,10 +5,47 @@ body{
 
 nav{
     display:flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #005a96;
-    color: #d6e8ff;
     border-radius: 15px;
-    padding: 15px;
+    box-sizing: border-box;
+}
+
+.nav-items{
+    display: flex;
+}
+
+.nav-items a:hover {
+        display:block;
+        color:azure;
+        background-color:steelblue;
+        text-decoration:underline;      
+} 
+
+.linkedin-icon img {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;  
+    box-shadow: none;
+    transition: none;
+    transform: none;
+    background-color: transparent;
+}
+
+.email-icon img {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px; 
+    box-shadow: none; 
+    transition: none;
+    transform: none; 
+    background-color: transparent; 
+}
+
+.icons {
+    display: flex;
+    margin-left: auto;
 }
 
 
@@ -81,15 +118,16 @@ a:link {
 a:visited{
     color: beige;
 }
-a:hover {
-    display:block;
-    color:azure;
-    background-color:steelblue;
-    text-decoration:underline;
-    padding: 5px;
 
-}
 a:active {
     color:red;
     text-decoration:underline;
+}
+
+footer {
+    background-color: #005a96; 
+    text-align: center; 
+    padding: 20px;
+    margin-top: 30px; 
+    border-radius: 15px 15px 0 0; 
 }
